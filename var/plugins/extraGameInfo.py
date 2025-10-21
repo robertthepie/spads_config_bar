@@ -21,8 +21,8 @@ class ExtraGameInfo:
         bosses = spads.getBosses()
         today = datetime.today()
         return {
-            "game/modoption/bosses": ",".join(bosses),
-            "game/modoption/dateDay": today.day,
-            "game/modoption/dateMonth": today.month,
-            "game/modoption/dateYear": today.year
+            "game/modoptions/bosses": ",".join(bosses),
+            "game/modoptions/dateDay": today.day,
+            "game/modoptions/dateMonth": today.month,
+            "game/modoptions/dateYear": today.year
             }
